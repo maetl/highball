@@ -1,0 +1,21 @@
+{
+  "name": "highball",
+  "version": "0.1.0",
+  "description": "A Sass cocktail with Bourbon",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "design",
+    "ui",
+    "patterns"
+  ],
+  "author": "Mark Rickerby",
+  "license": "MIT",
+  "dependencies": {
+    "bourbon": "^4.2.6",
+    "bourbon-neat": "^1.7.2"
+  }
+}
