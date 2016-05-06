@@ -1,0 +1,32 @@
+// Base unit to derive the scale
+$scale-base-unit: 1rem;
+
+// Positive units (0..12).
+$scale-p0: $scale-base-unit;
+$scale-p1: modular-scale(1, $scale-base-unit);
+$scale-p2: modular-scale(2, $scale-base-unit);
+$scale-p3: modular-scale(3, $scale-base-unit);
+$scale-p4: modular-scale(4, $scale-base-unit);
+$scale-p5: modular-scale(5, $scale-base-unit);
+$scale-p6: modular-scale(6, $scale-base-unit);
+$scale-p6: modular-scale(7, $scale-base-unit);
+$scale-p6: modular-scale(8, $scale-base-unit);
+$scale-p6: modular-scale(9, $scale-base-unit);
+$scale-p6: modular-scale(10, $scale-base-unit);
+$scale-p6: modular-scale(11, $scale-base-unit);
+$scale-p6: modular-scale(12, $scale-base-unit);
+
+// Negative units (0..-12)
+$scale-m0: $scale-base-unit;
+$scale-m1: modular-scale(-1, $scale-base-unit);
+$scale-m2: modular-scale(-2, $scale-base-unit);
+$scale-m3: modular-scale(-3, $scale-base-unit);
+$scale-m4: modular-scale(-4, $scale-base-unit);
+$scale-m5: modular-scale(-5, $scale-base-unit);
+$scale-m6: modular-scale(-6, $scale-base-unit);
+$scale-m6: modular-scale(-7, $scale-base-unit);
+$scale-m6: modular-scale(-8, $scale-base-unit);
+$scale-m6: modular-scale(-9, $scale-base-unit);
+$scale-m6: modular-scale(-10, $scale-base-unit);
+$scale-m6: modular-scale(-11, $scale-base-unit);
+$scale-m6: modular-scale(-12, $scale-base-unit);
