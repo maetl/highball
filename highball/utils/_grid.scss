@@ -1,0 +1,27 @@
+// Repeatable spacer for layout elements.
+$box-padding: 1em !default;
+
+// Base grid division.
+$grid-columns: 24 !default;
+
+// Maximum width of the layout.
+$max-width: em(1200) !default;
+
+// Grid column gutter.
+$gutter: $box-padding;
+
+// Import grid helpers from Neat.
+@import "bourbon-neat/app/assets/stylesheets/neat-helpers";
+
+$media-screen-narrow: new-breakpoint(min-width 580px) !default;
+$media-screen-small: new-breakpoint(min-width 768px) !default;
+$media-screen-medium: new-breakpoint(min-width 1024px) !default;
+$media-screen-wide: new-breakpoint(min-width 1200px) !default;
+
+// $media-viewport-very-small
+// $media-viewport-small
+// $media-viewport-medium
+// $media-viewport-large
+
+// Build the grid framework itself
+@import "bourbon-neat/app/assets/stylesheets/neat";
