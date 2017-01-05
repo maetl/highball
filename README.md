@@ -17,7 +17,7 @@ npm install --save-dev highball
 Include `highball/foundation` in a project-specific Sass file:
 
 ```
-@include "highball/foundation";
+@import "highball/foundation";
 ```
 
 Ensure that the `node_modules` base directory is linked as an `--include-path` in the Sass build.
